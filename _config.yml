@@ -127,3 +127,13 @@ math:
       # KaTeX config
       throwOnError: false
       errorColor: "#cc0000"
+
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: before
+    symbol: '#'
+    style: header-anchor
