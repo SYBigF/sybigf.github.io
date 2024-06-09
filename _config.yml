@@ -137,3 +137,8 @@ toc:
     position: before
     symbol: '#'
     style: header-anchor
+
+# search
+search:
+  path: search.json
+  content: true
