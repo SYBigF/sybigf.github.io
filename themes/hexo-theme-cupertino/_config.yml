@@ -59,9 +59,9 @@ nav:
   items:
     # these items will display as a link
     Archives: /archives
-    Tags: /tags
-    About: /about
     Categories: /categories
+    About: /about
+    Tags: /tags
     # these will be automatically be an icon
     GitHub: https://github.com/SYBigF
     Search: /search
