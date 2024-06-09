@@ -1,14 +1,14 @@
 # REMEMBER TO EDIT THIS BEFORE DEPLOYING!!!
 
 # the path to your blog's icon:
-favicon: /favicon.png
+favicon: https://raw.githubusercontent.com/SYBigF/image-bed/main/me.png
 
 # the path to manifest.json
 manifest: /manifest.json
 
 # [Open Graph Protocol](https://ogp.me/)
 og_enabled: true
-og_image: /favicon.png
+og_image: https://raw.githubusercontent.com/SYBigF/image-bed/main/me.png
 og:
   # customize og properties here which will replace the defaults
 
