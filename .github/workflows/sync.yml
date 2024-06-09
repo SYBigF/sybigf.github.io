@@ -30,7 +30,7 @@ jobs:
 
     - name: Commit update
       run: |
-        git config --global user.name '${{ secrets.NAME }}'
-        git config --global user.email '${{ secrets.EMAIL }}'
+        git config --global user.name 'Hexo submodule sync bot'
+        git config --global user.email 'nobody@nobody.nobody'
         git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository }}
         git commit -am "Auto updated submodule" && git push || echo "No changes to commit"
