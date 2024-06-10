@@ -66,7 +66,11 @@ hr,
   padding: 0 16px;
 }
 
-.content p img,
+.content p img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
 .content .block-large img {
   border-radius: 10px;
 }
