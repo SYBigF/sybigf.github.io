@@ -60,7 +60,7 @@ hr,
 .content > mjx-container,
 .content > .katex,
 .about {
-  max-width: 800px;
+  max-width: 950px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
@@ -84,7 +84,7 @@ hr,
   padding: 0;
   border-collapse: collapse;
   border-radius: 15px;
-  max-width: 800px;
+  max-width: 950px;
   overflow-x: auto;
 }
 
@@ -122,7 +122,7 @@ hr,
   border-bottom-right-radius: 15px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .content table,
   .content table thead tr th:first-child,
   .content table thead tr th:last-child,
@@ -143,10 +143,10 @@ hr,
   overflow-y: hidden;
   background-color: var(--card-bg);
   border-radius: 15px;
-  max-width: calc(800px - 16px * 2);
+  max-width: calc(950px - 16px * 2);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .content .highlight,
   .content > pre {
     border-radius: 0;
@@ -162,7 +162,7 @@ hr,
 }
 
 .content > pre {
-  max-width: calc(800px - 24px * 2);
+  max-width: calc(950px - 24px * 2);
   padding: 20px 24px;
 }
 
@@ -176,11 +176,11 @@ hr,
   padding-left: 32px;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  max-width: calc(800px - 16px * 2);
+  max-width: calc(950px - 16px * 2);
 }
 
 .content blockquote {
-  max-width: calc(800px - 16px * 2);
+  max-width: calc(950px - 16px * 2);
   padding: 0 8px;
 }
 
@@ -231,12 +231,12 @@ body[data-color-scheme="dark"] .tags .icon {
 .about {
   border-radius: 7px;
   background-color: var(--card-bg);
-  max-width: calc(800px - 16px * 2);
+  max-width: calc(950px - 16px * 2);
   padding: 16px;
   margin: 64px auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .about {
     border-radius: 0;
   }
